@@ -1,0 +1,73 @@
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-56 { font-size: 56px; }
+.material-icons.md-96 { font-size: 96px; }
+
+.custom-nav {
+    color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .navbar-brand {
+    color: white;
+}
+
+.custom-jumbotron {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-image: url("../Images/hero-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cardsContainer {
+    margin: 0% 8% 0% 8%;
+    padding: 0% 0% 4% 0%;
+}
+.card-dark {
+    padding: 0;
+    color: white;
+}
+
+.card-body-padding {
+    padding: 12vh 4vh 12vh 4vh;
+}
+
+.custom-overlay-dark {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+.custom-overlay-light {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100vw;
+    height: 100vh;
+}
+
+#book-fl-bg {
+    background-image: url("../Images/book-flight-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+#flight-icon {
+    transform: rotate(45deg);
+    padding: 0px 0px 24px 0px;
+}
+
+#destinations-bg {
+
+    background-image: url("../Images/popular-destination-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
